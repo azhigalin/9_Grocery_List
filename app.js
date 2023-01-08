@@ -1,7 +1,7 @@
-const groceries = document.querySelector(".groceries")[0];
-const pencil = document.querySelector("#pencil");
-const allItems = document.querySelector("#allItems");
-const userInput = document.querySelector("#userInput");
+const groceries = document.querySelector(".groceries"),
+  pencil = document.querySelector("#pencil"),
+  allItems = document.querySelector("#allItems"),
+  userInput = document.querySelector("#userInput");
 
 pencil.addEventListener("click", () => {
   allItems.innerHTML = "";
